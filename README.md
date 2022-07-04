@@ -8,7 +8,7 @@ Cоздано с ипользованием React, Redux, Redux-Toolkit.
     созданного с использованием Redax-Toolkit
     (https://redux.js.org/introduction/getting-started#redux-toolkit);
     
-  - Асинхронная лгика написана с использованием Thunk
+  - Асинхронная логика написана с использованием Thunk
     (https://redux.js.org/tutorials/essentials/part-2-app-structure#writing-async-logic-with-thunks).
 
 Для начала работы:
