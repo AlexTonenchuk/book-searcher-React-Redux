@@ -114,11 +114,11 @@
 
 .cards {
     background: rgb(249, 252, 255);
-    margin: auto;
-    display: flex;
+/*     margin: auto;
+ */    display: flex;
     flex-wrap: wrap;
     overflow: auto;
-    height: 70vh;
+    height: calc(100vh - 260px);
 }
 
 /* ------------------------------ */
