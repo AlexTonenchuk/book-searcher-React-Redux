@@ -7,7 +7,7 @@ import Sort from './sort'
 export default function SearchBar () {
     return (
         <div className='searchBar'>
-            <div><h1>Search for books</h1></div>
+            <div><h1>Book-searcher</h1></div>
             <Search/>
             <div>           
                 <Categorie/>
