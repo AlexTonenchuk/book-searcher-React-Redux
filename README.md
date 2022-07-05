@@ -10,6 +10,7 @@ Cоздано с ипользованием React, Redux, Redux-Toolkit.
     
   - Асинхронная логика написана с использованием Thunk
     (https://redux.js.org/tutorials/essentials/part-2-app-structure#writing-async-logic-with-thunks).
+    
 
 Для начала работы:
 
@@ -51,7 +52,7 @@ Cоздано с ипользованием React, Redux, Redux-Toolkit.
 
 Внешний вид Book-searcher:
 
-![image](https://user-images.githubusercontent.com/105805998/177193574-ba230a69-30d7-43d2-9551-3eca96ca2f69.png)
+![image](https://user-images.githubusercontent.com/105805998/177385566-153fb789-7476-4621-bff4-b881fa189f8c.png)
 
 
-![image](https://user-images.githubusercontent.com/105805998/177193622-367eecba-39f5-416b-8756-65c6282fe4a7.png)
+![image](https://user-images.githubusercontent.com/105805998/177385663-daa0036f-01ee-4953-a7e2-04c6863f9ce9.png)
