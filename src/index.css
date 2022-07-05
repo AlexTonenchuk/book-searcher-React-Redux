@@ -132,7 +132,6 @@
     padding-left: 10px;
     padding-right: 10px;
     overflow: hidden;
-    position: relative;
 }
 
 .card div {
@@ -144,13 +143,12 @@
     width: 100px;
     margin-top: 20px;
     margin-left: 50px;
-    position:absolute;
 }
 
 .card .categories {
     color: rgb(139, 139, 139);
     text-decoration: underline;
-    margin-top: 200px;
+    margin-top: 10px;
 }
 
 .card .title {
