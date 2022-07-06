@@ -52,9 +52,7 @@ Cоздано с ипользованием React, Redux, Redux-Toolkit.
 
 Внешний вид Book-searcher:
 
-![image](https://user-images.githubusercontent.com/105805998/177460164-18da3130-8825-4e6b-9603-268420023052.png)
+![image](https://user-images.githubusercontent.com/105805998/177627132-619e94f4-aa26-47e1-884d-c97da884bdef.png)
 
 
-
-![image](https://user-images.githubusercontent.com/105805998/177460198-4101c346-0165-42d4-b26d-a3298c5a46ef.png)
-
+![image](https://user-images.githubusercontent.com/105805998/177627219-dbab888e-3c64-4ab0-ad31-929bf5b50ff0.png)
