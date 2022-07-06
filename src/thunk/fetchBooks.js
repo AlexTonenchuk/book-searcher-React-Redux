@@ -1,8 +1,10 @@
 import { loadBooks, loadMore } from "../slices/booksSlice";
 import { changeFound } from "../slices/foundSlice";
+import { togleLoading } from "../slices/loadingSlice";
 
 
 export const fetchBooks = (search, categorie, sort, buttonType) => (dispatch, getState) => {
+  dispatch(togleLoading());
   let url;
   const startIndex = ( buttonType==='search'?0:getState().books.value.length );
   if ( categorie==='all' ) {
@@ -12,15 +14,16 @@ export const fetchBooks = (search, categorie, sort, buttonType) => (dispatch, ge
   }
   fetch(url)
   .then((response) => {
-    console.log (url); 
     return response.json();
   })
   .then((data) => {
     if (buttonType==='search'){
       dispatch(loadBooks(data.items));
-      dispatch(changeFound(data.totalItems))
+      dispatch(changeFound(data.totalItems));
+      dispatch(togleLoading());
     } else {
         dispatch(loadMore(data.items));
+        dispatch(togleLoading());
     }
   })
 }

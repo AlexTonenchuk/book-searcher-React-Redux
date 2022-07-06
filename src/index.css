@@ -31,6 +31,28 @@
 
 /* ------------------------------ */
 
+
+.loader {
+    background: rgba(253, 243, 243, 0.789);
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5)
+    
+}
+
+/* ------------------------------ */
+
+
+
 .found {
     text-align: center;
     margin: 10px 0 10px 0;
@@ -164,7 +186,12 @@
 
 .loadMore {
     background: rgb(254, 243, 241);
-    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+   text-align: center;
+}
+
+.loadMore button {
+    margin: 3px;
 }
 
 /* ------------------------------ */
