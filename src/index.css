@@ -32,7 +32,6 @@
 /* ------------------------------ */
 
 .found {
-    background: rgb(251, 253, 255);
     text-align: center;
     margin: 10px 0 10px 0;
 }
@@ -112,7 +111,6 @@
 /* ------------------------------ */
 
 .cards {
-    background: rgb(249, 252, 255);
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
