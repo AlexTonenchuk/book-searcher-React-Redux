@@ -75,7 +75,6 @@
 .book img {
     width: 200px;
     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
-
 }
 
 .book .bookContent {
@@ -114,8 +113,7 @@
 
 .cards {
     background: rgb(249, 252, 255);
-/*     margin: auto;
- */    display: flex;
+    display: flex;
     flex-wrap: wrap;
     overflow: auto;
     height: calc(100vh - 260px);
@@ -139,9 +137,14 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+.card .imgWrap {
+    height: 180px;
+    overflow: auto;
+}
+
 .card img {
     width: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 50px;
 }
 

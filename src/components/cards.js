@@ -24,7 +24,7 @@ export default function Cards () {
                         key={item.id}
                         id={item.id}
                         onClick={onClick}>
-                            <div>
+                            <div className="imgWrap">
                                 <img    src={item.volumeInfo.imageLinks.thumbnail || ''} 
                                         alt="lorem">
                                 </img>
