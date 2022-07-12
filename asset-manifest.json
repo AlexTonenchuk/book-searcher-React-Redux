@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/book-searcher-React-Redux/static/css/main.4c80aa9a.css",
+    "main.js": "/book-searcher-React-Redux/static/js/main.40e5e71b.js",
+    "index.html": "/book-searcher-React-Redux/index.html",
+    "main.4c80aa9a.css.map": "/book-searcher-React-Redux/static/css/main.4c80aa9a.css.map",
+    "main.40e5e71b.js.map": "/book-searcher-React-Redux/static/js/main.40e5e71b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c80aa9a.css",
+    "static/js/main.40e5e71b.js"
+  ]
+}
