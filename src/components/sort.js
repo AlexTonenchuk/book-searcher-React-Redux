@@ -8,7 +8,7 @@ export default function Sort () {
     const onChange = (e) =>dispatch(changeSort(e.target.value));
     return (
         <span className="sort">
-            <span>sorting by </span>
+            <span>sort </span>
             <select 
                 size="1" 
                 name="sort"

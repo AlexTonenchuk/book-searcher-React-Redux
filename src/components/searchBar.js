@@ -13,6 +13,7 @@ export default function SearchBar () {
                 <Categorie/>
                 <Sort/>
             </div>
+            <div className="decorateBoard"></div>
         </div>
     )
 }
