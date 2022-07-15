@@ -51,7 +51,7 @@ html, body, #root {
 }
 
 .loader {
-    background: rgba(253, 243, 243, 0.789);
+    background: rgba(254, 236, 231, 0.801);
     border-radius: 20px;
     width: 250px;
     height: 250px;
