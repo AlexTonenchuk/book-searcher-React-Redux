@@ -1,5 +1,5 @@
 import SearchBar from './components/searchBar'
-import CardBar from "./components/cardBar";
+import CardBar from './components/cardBar';
 
 
 export default function App() {
@@ -9,4 +9,4 @@ export default function App() {
       <CardBar/>
     </div>
   )
-}
+};
