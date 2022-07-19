@@ -16,18 +16,15 @@ export default function Book () {
         const book = books[index];
         return (
             <div className = {classes}>
-                
                 <div className="close">
-                    <button 
-                        onClick={onClick}>
+                    <button onClick={onClick}>
                         close
                     </button>
                 </div>
                 <div className="wrap">
                     <div className="imgWrap">
-                        <img    
-                            src={book.volumeInfo.imageLinks.thumbnail || ''} 
-                            alt="not img">
+                        <img src={book.volumeInfo.imageLinks.thumbnail || ''} 
+                             alt="not img">
                         </img>
                     </div>
                     <div className="bookContent" >
@@ -49,5 +46,7 @@ export default function Book () {
                 </div>
             </div>
         ) 
-    } else { return null };
-}
+    } else { 
+        return null 
+    };
+};

@@ -6,7 +6,6 @@ import LoadMore from "./loadMore";
 import Loader from "./loader";
 
 
-
 export default function CardBar () {
     return (
         <div className="cardBar">
@@ -17,6 +16,6 @@ export default function CardBar () {
             <LoadMore/>
         </div>
     )
-}
+};
 
 
