@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { selectSearch } from '../slices/searchSlice';
 import { selectCategorie } from '../slices/categorieSlice';
 import { selectSort } from '../slices/sortSlice';
-import { fetchBooks } from "../thunk/fetchBooks";
+import { fetchBooks } from '../thunk/fetchBooks';
 
 export default function LoadMore () {
     const search = useSelector(selectSearch);
@@ -13,7 +13,9 @@ export default function LoadMore () {
     const onClick = () => {
         if (search) {
             dispatch(fetchBooks(search, categorie, sort, null));
-        } else {return null}
+        } else {
+            return null
+        }
     };
     return (
         <div className="loadMore">
@@ -22,4 +24,4 @@ export default function LoadMore () {
             </button>
         </div>
     )
-}
+};

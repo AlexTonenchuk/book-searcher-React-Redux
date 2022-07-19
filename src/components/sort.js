@@ -5,7 +5,7 @@ import { selectSort, changeSort } from '../slices/sortSlice';
 export default function Sort () {
     const sort = useSelector(selectSort);
     const dispatch = useDispatch();
-    const onChange = (e) =>dispatch(changeSort(e.target.value));
+    const onChange = (e) => dispatch(changeSort(e.target.value));
     return (
         <span className="sort">
             <span>sort </span>

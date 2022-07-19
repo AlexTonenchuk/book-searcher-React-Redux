@@ -7,7 +7,6 @@ import { fetchBooks } from "../thunk/fetchBooks";
 import { changeID } from "../slices/idSlice";
 
 
-
 export default function Search () {
     const search = useSelector(selectSearch);
     const categorie = useSelector(selectCategorie);
@@ -19,7 +18,9 @@ export default function Search () {
         if (search) {
             dispatch(changeID(''));
             dispatch(fetchBooks(search, categorie, sort, e.target.name));
-        } else {return null}
+        } else {
+            return null
+        }
     };
     return (
         <div className="search">

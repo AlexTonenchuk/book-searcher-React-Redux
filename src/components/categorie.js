@@ -5,7 +5,7 @@ import { selectCategorie, changeCategorie } from '../slices/categorieSlice';
 export default function Categorie () {
     const categorie = useSelector(selectCategorie);
     const dispatch = useDispatch();
-    const onChange = (e) =>dispatch(changeCategorie(e.target.value));
+    const onChange = (e) => dispatch(changeCategorie(e.target.value));
     return (
         <span className="categorie">
             <span>categories </span>
